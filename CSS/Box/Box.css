@@ -1,0 +1,24 @@
+.box_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+}
+
+.box {
+    background-color: var(--White);
+    border-radius: 30px;
+    width: 400px;
+    height: 630px;
+    padding: 25px;
+    box-shadow: 10px 10px 28px -13px rgba(0, 0, 0, 0.75);
+}
+
+@media screen and (max-width:767px) {
+    .box {
+        padding: 25px;
+        width: 250px;
+        height: 450px;
+        padding: 20px;
+    }
+}
